@@ -216,11 +216,13 @@ h2, p { color: #666666; }
 .tm-catalog-item-list { justify-content: space-between; }
 
 .tm-catalog-item {
-    max-width: 462px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 64px;
-}
+    max-width: calc(33.33% - 20px); /* Adjust the max-width as needed */
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px;
+    /* Add any additional styling for the catalog items */
+  }
+  
 
 .tm-thumbnail-container { overflow: hidden; }
 .tm-thumbnail-container img { transition: all 0.3s ease; }
