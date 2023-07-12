@@ -1,463 +1,466 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses</title>
-    <link rel="icon" href="img/logo.png" type="image/svg+xml">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <!-- https://fonts.google.com/ -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
-<!--
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Courses</title>
+        <link rel="icon" href="img/logo.png" type="image/svg+xml">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <!-- https://fonts.google.com/ -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+    <!--
 
 
--->
-</head>
+    -->
+    </head>
 
-<body>
-    <div class="tm-page-wrap mx-auto">
-        <div class="position-relative">
-            <div class="position-absolute tm-site-header">
-                <div class="container-fluid position-relative">
-                    <div class="row">
-                        <div class="col-7 col-md-4">
-                            <a href="" class="">
-                                <i class=""></i>
-                                <h1 class="tm-site-name"></h1>
-                            </a>
-                        </div>
-                        <div class="col-5 col-md-8 ml-auto mr-0">
-                            <div class="tm-site-nav">
-                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
-                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
-                                        data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                        <span>
-                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
-                                            <i class="fas fa-times tm-menu-opened-icon"></i>
-                                        </span>
-                                    </button>
-                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
-                                        <ul class="navbar-nav text-uppercase">
-                                            <li class="nav-item active">
-                                                <a class="nav-link tm-nav-link" href="#">Courses <span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link tm-nav-link" href="about.html">About</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </nav>
+    <body>
+        <div class="tm-page-wrap mx-auto">
+            <div class="position-relative">
+                <div class="position-absolute tm-site-header">
+                    <div class="container-fluid position-relative">
+                        <div class="row">
+                            <div class="col-7 col-md-4">
+                                <a href="" class="">
+                                    <i class=""></i>
+                                    <h1 class="tm-site-name"></h1>
+                                </a>
+                            </div>
+                            <div class="col-5 col-md-8 ml-auto mr-0">
+                                <div class="tm-site-nav">
+                                    <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                        <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                                            data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
+                                            aria-expanded="false" aria-label="Toggle navigation">
+                                            <span>
+                                                <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                                <i class="fas fa-times tm-menu-opened-icon"></i>
+                                            </span>
+                                        </button>
+                                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                            <ul class="navbar-nav text-uppercase">
+                                                <li class="nav-item active">
+                                                    <a class="nav-link tm-nav-link" href="#">Courses <span class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link tm-nav-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tm-welcome-container text-center text-white">
-                <div class="tm-welcome-container-inner">
-                    <p class="tm-welcome-text mb-1 text-white">Unleash your tech journey with<br> "Code Academy" - Igniting minds, fueling innovation.</p>
-                    <a href="" class="">
-                        <span></span>
-                    </a>
-                </div>
-            </div>
-
-            <div id="tm-video-container">
-                <video autoplay muted loop id="tm-video">
-                    <!-- <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> -->
-                        <source src="video/wheat-field.mp4" type="video/mp4">
-                </video>    
-            </div>
-            
-            <i id="tm-video-control-button" class="fas fa-pause"></i>
-        </div>
-
-        <div class="container-fluid">
-            <div id="content" class="mx-auto tm-content-container">
-                <main>
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="tm-page-title mb-4">Course Catalog</h2>
-                            <div class="tm-categories-container mb-5">
-                                <h3 class="tm-text-primary tm-categories-text">Courses:</h3>
-                                <ul class="nav tm-category-list">
-                                    <li class="nav-item tm-category-item"><a href="#" class="nav-link tm-category-link active">Python For Data Science</a></li>
-                                    <li class="nav-item tm-category-item"><a href= "" class="nav-link tm-category-link active">Coming Soon</a></li>
-                                </ul>
-                            </div>        
-                        </div>
+                <div class="tm-welcome-container text-center text-white">
+                    <div class="tm-welcome-container-inner">
+                        <p class="tm-welcome-text mb-1 text-white">Unleash your tech journey with<br> "Code Academy" - Igniting minds, fueling innovation.</p>
+                        <a href="" class="">
+                            <span></span>
+                        </a>
                     </div>
-                    <style>
-                        .tm-thumbnail {
-                            width: 100%;
-                            height: auto;
-                        }
-                    </style>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=N4mEzFDjqtA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/N4mEzFDjqtA/hqdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>    
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 1</h3>
-                                <p class="tm-catalog-item-text">Python Programming.</p>
-                            </div>
-                        </div>
-                        
+                </div>
 
-    
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank">
-                                    <img src="https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>    
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 2</h3>
-                                <p class="tm-catalog-item-text">Learn Python - Full Course for Beginners</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=6iF8Xb7Z3wQ" target="_blank">
-                                    <img src="https://img.youtube.com/vi/6iF8Xb7Z3wQ/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>                            
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 3</h3>
-                                <p class="tm-catalog-item-text">Python Tutorial for Beginners: Loops and Iterations - For/While Loops.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=NE97ylAnrz4" target="_blank">
-                                    <img src="https://img.youtube.com/vi/NE97ylAnrz4/hqdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 4</h3>
-                                <p class="tm-catalog-item-text">Python Tutorial: Understanding Lists and List Manipulation.</p>
-                            </div>
-                        </div>
+                <div id="tm-video-container">
+                    <video autoplay muted loop id="tm-video">
+                        <!-- <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> -->
+                            <source src="video/wheat-field.mp4" type="video/mp4">
+                    </video>    
+                </div>
+                
+                <i id="tm-video-control-button" class="fas fa-pause"></i>
+            </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank">
-                                    <img src="https://img.youtube.com/vi/_uQrJ0TkZlc/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 5</h3>
-                                <p class="tm-catalog-item-text">Python Tutorial - Python Full Course for Beginners.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=QUT1VHiLmmI" target="_blank">
-                                    <img src="https://img.youtube.com/vi/QUT1VHiLmmI/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 6</h3>
-                                <p class="tm-catalog-item-text">Python NumPy Tutorial for Beginners</p>
+            <div class="container-fluid">
+                <div id="content" class="mx-auto tm-content-container">
+                    <main>
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="tm-page-title mb-4">Course Catalog</h2>
+                                <div class="tm-categories-container mb-5">
+                                    <h3 class="tm-text-primary tm-categories-text">Courses:</h3>
+                                    <ul class="nav tm-category-list">
+                                        <li class="nav-item tm-category-item">
+                                            <a href="index.html" class="nav-link tm-category-link active">Python For Data Science</a>
+                                        </li>
+                                        <li class="nav-item tm-category-item">
+                                            <a href="PE.html" class="nav-link tm-category-link active">Prompt Engineering</a></li>
+                                    </ul>
+                                </div>        
                             </div>
                         </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=ZyhVh-qRZPA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/ZyhVh-qRZPA/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
+                        <style>
+                            .tm-thumbnail {
+                                width: 100%;
+                                height: auto;
+                            }
+                        </style>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=N4mEzFDjqtA" target="_blank">
+                                        <img src="https://img.youtube.com/vi/N4mEzFDjqtA/hqdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>    
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 1</h3>
+                                    <p class="tm-catalog-item-text">Python Programming.</p>
+                                </div>
                             </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 7</h3>
-                                <p class="tm-catalog-item-text">Python Pandas Tutorial: Getting Started with Data Analysis - Installation and Loading Data.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=iYie42M1ZyU" target="_blank">
-                                    <img src="https://img.youtube.com/vi/iYie42M1ZyU/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 8</h3>
-                                <p class="tm-catalog-item-text">Cleaning and Tidying Data in Pandas.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=0P7QnIQDBJY" target="_blank">
-                                    <img src="https://img.youtube.com/vi/0P7QnIQDBJY/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 9</h3>
-                                <p class="tm-catalog-item-text">Python Plotting Tutorial w/ Matplotlib & Pandas (Line Graph, Histogram, Pie Chart, Box & Whiskers).</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=3ZWuPVWq7p4" target="_blank">
-                                    <img src="https://img.youtube.com/vi/3ZWuPVWq7p4/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 10</h3>
-                                <p class="tm-catalog-item-text">Data science in Python: pandas, seaborn, scikit-learn.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=7eh4d6sabA0" target="_blank">
-                                    <img src="https://img.youtube.com/vi/7eh4d6sabA0/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 11</h3>
-                                <p class="tm-catalog-item-text">Python Machine Learning Tutorial (Data Science).</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=8jazNUpO3lQ" target="_blank">
-                                    <img src="https://img.youtube.com/vi/8jazNUpO3lQ/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 12</h3>
-                                <p class="tm-catalog-item-text">Machine Learning Tutorial Python - 2: Linear Regression Single Variable.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=zM4VZR0px8E" target="_blank">
-                                    <img src="https://img.youtube.com/vi/zM4VZR0px8E/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 13</h3>
-                                <p class="tm-catalog-item-text">Machine Learning Tutorial Python: Logistic Regression (Binary Classification).</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=4b5d3muPQmA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/4b5d3muPQmA/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 14</h3>
-                                <p class="tm-catalog-item-text">StatQuest: K-means clustering.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=RlQuVL6-qe8" target="_blank">
-                                    <img src="https://img.youtube.com/vi/RlQuVL6-qe8/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 15</h3>
-                                <p class="tm-catalog-item-text">Training a machine learning model with scikit-learn.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=0B5eIE_1vpU" target="_blank">
-                                    <img src="https://img.youtube.com/vi/0B5eIE_1vpU/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 16</h3>
-                                <p class="tm-catalog-item-text">Scikit-learn Crash Course - Machine Learning Library for Python.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=6WDFfaYtN6s" target="_blank">
-                                    <img src="https://img.youtube.com/vi/6WDFfaYtN6s/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 17</h3>
-                                <p class="tm-catalog-item-text">Feature Engineering - How to Perform One Hot Encoding for Multi Categorical Variables.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=Gol_qOgRqfA" target="_blank">
-                                    <img src="https://img.youtube.com/vi/Gol_qOgRqfA/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 18</h3>
-                                <p class="tm-catalog-item-text">How to Find the Best Model Parameters in scikit-learn.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=6g4O5UOH304" target="_blank">
-                                    <img src="https://img.youtube.com/vi/6g4O5UOH304/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 19</h3>
-                                <p class="tm-catalog-item-text">TensorFlow 2.0 Crash Course.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=VyWAvY2CF9c" target="_blank">
-                                    <img src="https://img.youtube.com/vi/VyWAvY2CF9c/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 20</h3>
-                                <p class="tm-catalog-item-text">Deep Learning Crash Course for Beginners.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
-                            <div class="position-relative tm-thumbnail-container">
-                                <a href="https://www.youtube.com/watch?v=FLZvOKSCkxY" target="_blank">
-                                    <img src="https://img.youtube.com/vi/FLZvOKSCkxY/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
-                                    <div class="tm-play-icon"></div>
-                                </a>
-                            </div>
-                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 21</h3>
-                                <p class="tm-catalog-item-text">Natural Language Processing With Python and NLTK (Tokenizing Words and Sentences).</p>
-                            </div>
-                        </div>
-                        
-						    
-					        
-					        
-
-                    <!-- Catalog Paging Buttons -->
-
-                </main>
-
-               
-
-                <footer class="row pt-5">
-                    <div class="col-12">
-                        <p class="text-right">Copyright May 2023
                             
-                            - Designed by <a href="https://samirsengupta.github.io/SamirSengupta/" rel="nofollow" target="_parent">Samir Sengupta</a></p>
-                    </div>
-                </footer>
-            </div> <!-- tm-content-container -->
-        </div>
 
-    </div> <!-- .tm-page-wrap -->
+        
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank">
+                                        <img src="https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>    
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 2</h3>
+                                    <p class="tm-catalog-item-text">Learn Python - Full Course for Beginners</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=6iF8Xb7Z3wQ" target="_blank">
+                                        <img src="https://img.youtube.com/vi/6iF8Xb7Z3wQ/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>                            
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 3</h3>
+                                    <p class="tm-catalog-item-text">Python Tutorial for Beginners: Loops and Iterations - For/While Loops.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=NE97ylAnrz4" target="_blank">
+                                        <img src="https://img.youtube.com/vi/NE97ylAnrz4/hqdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 4</h3>
+                                    <p class="tm-catalog-item-text">Python Tutorial: Understanding Lists and List Manipulation.</p>
+                                </div>
+                            </div>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-        function setVideoSize() {
-            const vidWidth = 1920;
-            const vidHeight = 1080;
-            let windowWidth = window.innerWidth;
-            let newVidWidth = windowWidth;
-            let newVidHeight = windowWidth * vidHeight / vidWidth;
-            let marginLeft = 0;
-            let marginTop = 0;
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank">
+                                        <img src="https://img.youtube.com/vi/_uQrJ0TkZlc/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 5</h3>
+                                    <p class="tm-catalog-item-text">Python Tutorial - Python Full Course for Beginners.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=QUT1VHiLmmI" target="_blank">
+                                        <img src="https://img.youtube.com/vi/QUT1VHiLmmI/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 6</h3>
+                                    <p class="tm-catalog-item-text">Python NumPy Tutorial for Beginners</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=ZyhVh-qRZPA" target="_blank">
+                                        <img src="https://img.youtube.com/vi/ZyhVh-qRZPA/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 7</h3>
+                                    <p class="tm-catalog-item-text">Python Pandas Tutorial: Getting Started with Data Analysis - Installation and Loading Data.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=iYie42M1ZyU" target="_blank">
+                                        <img src="https://img.youtube.com/vi/iYie42M1ZyU/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 8</h3>
+                                    <p class="tm-catalog-item-text">Cleaning and Tidying Data in Pandas.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=0P7QnIQDBJY" target="_blank">
+                                        <img src="https://img.youtube.com/vi/0P7QnIQDBJY/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 9</h3>
+                                    <p class="tm-catalog-item-text">Python Plotting Tutorial w/ Matplotlib & Pandas (Line Graph, Histogram, Pie Chart, Box & Whiskers).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=3ZWuPVWq7p4" target="_blank">
+                                        <img src="https://img.youtube.com/vi/3ZWuPVWq7p4/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 10</h3>
+                                    <p class="tm-catalog-item-text">Data science in Python: pandas, seaborn, scikit-learn.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=7eh4d6sabA0" target="_blank">
+                                        <img src="https://img.youtube.com/vi/7eh4d6sabA0/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 11</h3>
+                                    <p class="tm-catalog-item-text">Python Machine Learning Tutorial (Data Science).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=8jazNUpO3lQ" target="_blank">
+                                        <img src="https://img.youtube.com/vi/8jazNUpO3lQ/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 12</h3>
+                                    <p class="tm-catalog-item-text">Machine Learning Tutorial Python - 2: Linear Regression Single Variable.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=zM4VZR0px8E" target="_blank">
+                                        <img src="https://img.youtube.com/vi/zM4VZR0px8E/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 13</h3>
+                                    <p class="tm-catalog-item-text">Machine Learning Tutorial Python: Logistic Regression (Binary Classification).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=4b5d3muPQmA" target="_blank">
+                                        <img src="https://img.youtube.com/vi/4b5d3muPQmA/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 14</h3>
+                                    <p class="tm-catalog-item-text">StatQuest: K-means clustering.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=RlQuVL6-qe8" target="_blank">
+                                        <img src="https://img.youtube.com/vi/RlQuVL6-qe8/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 15</h3>
+                                    <p class="tm-catalog-item-text">Training a machine learning model with scikit-learn.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=0B5eIE_1vpU" target="_blank">
+                                        <img src="https://img.youtube.com/vi/0B5eIE_1vpU/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 16</h3>
+                                    <p class="tm-catalog-item-text">Scikit-learn Crash Course - Machine Learning Library for Python.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=6WDFfaYtN6s" target="_blank">
+                                        <img src="https://img.youtube.com/vi/6WDFfaYtN6s/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 17</h3>
+                                    <p class="tm-catalog-item-text">Feature Engineering - How to Perform One Hot Encoding for Multi Categorical Variables.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=Gol_qOgRqfA" target="_blank">
+                                        <img src="https://img.youtube.com/vi/Gol_qOgRqfA/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 18</h3>
+                                    <p class="tm-catalog-item-text">How to Find the Best Model Parameters in scikit-learn.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=6g4O5UOH304" target="_blank">
+                                        <img src="https://img.youtube.com/vi/6g4O5UOH304/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 19</h3>
+                                    <p class="tm-catalog-item-text">TensorFlow 2.0 Crash Course.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=VyWAvY2CF9c" target="_blank">
+                                        <img src="https://img.youtube.com/vi/VyWAvY2CF9c/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 20</h3>
+                                    <p class="tm-catalog-item-text">Deep Learning Crash Course for Beginners.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <a href="https://www.youtube.com/watch?v=FLZvOKSCkxY" target="_blank">
+                                        <img src="https://img.youtube.com/vi/FLZvOKSCkxY/maxresdefault.jpg" alt="Video Thumbnail" class="tm-thumbnail">
+                                        <div class="tm-play-icon"></div>
+                                    </a>
+                                </div>
+                                <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                    <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Day 21</h3>
+                                    <p class="tm-catalog-item-text">Natural Language Processing With Python and NLTK (Tokenizing Words and Sentences).</p>
+                                </div>
+                            </div>
+                            
+                                
+                                
+                                
 
-            if (newVidHeight < 500) {
-                newVidHeight = 500;
-                newVidWidth = newVidHeight * vidWidth / vidHeight;
-            }
+                        <!-- Catalog Paging Buttons -->
 
-            if(newVidWidth > windowWidth) {
-                marginLeft = -((newVidWidth - windowWidth) / 2);
-            }
+                    </main>
 
-            if(newVidHeight > 720) {
-                marginTop = -((newVidHeight - $('#tm-video-container').height()) / 2);
-            }
+                
 
-            const tmVideo = $('#tm-video');
+                    <footer class="row pt-5">
+                        <div class="col-12">
+                            <p class="text-right">Copyright May 2023
+                                
+                                - Designed by <a href="https://samirsengupta.github.io/SamirSengupta/" rel="nofollow" target="_parent">Samir Sengupta</a></p>
+                        </div>
+                    </footer>
+                </div> <!-- tm-content-container -->
+            </div>
 
-            tmVideo.css('width', newVidWidth);
-            tmVideo.css('height', newVidHeight);
-            tmVideo.css('margin-left', marginLeft);
-            tmVideo.css('margin-top', marginTop);
-        }
+        </div> <!-- .tm-page-wrap -->
 
-        $(document).ready(function () {
-            /************** Video background *********/
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            function setVideoSize() {
+                const vidWidth = 1920;
+                const vidHeight = 1080;
+                let windowWidth = window.innerWidth;
+                let newVidWidth = windowWidth;
+                let newVidHeight = windowWidth * vidHeight / vidWidth;
+                let marginLeft = 0;
+                let marginTop = 0;
 
-            setVideoSize();
-
-            // Set video background size based on window size
-            let timeout;
-            window.onresize = function () {
-                clearTimeout(timeout);
-                timeout = setTimeout(setVideoSize, 100);
-            };
-
-            // Play/Pause button for video background      
-            const btn = $("#tm-video-control-button");
-
-            btn.on("click", function (e) {
-                const video = document.getElementById("tm-video");
-                $(this).removeClass();
-
-                if (video.paused) {
-                    video.play();
-                    $(this).addClass("fas fa-pause");
-                } else {
-                    video.pause();
-                    $(this).addClass("fas fa-play");
+                if (newVidHeight < 500) {
+                    newVidHeight = 500;
+                    newVidWidth = newVidHeight * vidWidth / vidHeight;
                 }
-            });
-        })
-    </script>
-</body>
 
-</html>
+                if(newVidWidth > windowWidth) {
+                    marginLeft = -((newVidWidth - windowWidth) / 2);
+                }
+
+                if(newVidHeight > 720) {
+                    marginTop = -((newVidHeight - $('#tm-video-container').height()) / 2);
+                }
+
+                const tmVideo = $('#tm-video');
+
+                tmVideo.css('width', newVidWidth);
+                tmVideo.css('height', newVidHeight);
+                tmVideo.css('margin-left', marginLeft);
+                tmVideo.css('margin-top', marginTop);
+            }
+
+            $(document).ready(function () {
+                /************** Video background *********/
+
+                setVideoSize();
+
+                // Set video background size based on window size
+                let timeout;
+                window.onresize = function () {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(setVideoSize, 100);
+                };
+
+                // Play/Pause button for video background      
+                const btn = $("#tm-video-control-button");
+
+                btn.on("click", function (e) {
+                    const video = document.getElementById("tm-video");
+                    $(this).removeClass();
+
+                    if (video.paused) {
+                        video.play();
+                        $(this).addClass("fas fa-pause");
+                    } else {
+                        video.pause();
+                        $(this).addClass("fas fa-play");
+                    }
+                });
+            })
+        </script>
+    </body>
+
+    </html>
