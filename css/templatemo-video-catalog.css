@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-    color: #29BBCC;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ h2, p { color: #666666; }
 }
 
 .tm-bg-gray { background-color: #F4F4F4; }
-.tm-text-primary { color: #3399CC; }
+.tm-text-primary { color: #333333; }
 .tm-text-secondary { color: #3CAFAF; }
 
 .tm-nav-link {
@@ -108,7 +108,7 @@ h2, p { color: #666666; }
     cursor: pointer;
 }
 
-.btn-primary { background-color: #3399CC; }
+.btn-primary { background-color: #333333; }
 .btn-primary:hover { background-color: #1674a0; }
 
 /*
@@ -190,7 +190,7 @@ h2, p { color: #666666; }
 .tm-btn-submit:hover,
 .tm-btn-submit:focus {
     color: white;
-    background-color: #3399CC;
+    background-color: #333333;
 }
 
 .tm-btn-download span { padding-top: 10px; }
@@ -289,15 +289,15 @@ transform: scale(1.2);
 .tm-category-item { margin: 16px; }
 
 .tm-category-link {
-    color: #3399CC;
+    color: #333333;
     padding: 10px;
     border-bottom: 3px solid transparent;
 }
 
 .tm-category-link.active,
 .tm-category-link:hover {
-    border-bottom: 3px solid #3399CC;
-    color: #3399CC;
+    border-bottom: 3px solid #333333;
+    color: #333333;
 }
 
 .tm-paging-link {
@@ -356,7 +356,7 @@ transform: scale(1.2);
 }
 
 .tm-share-button:last-child { margin-right: 0; }
-.tm-text-link { color: #3399CC; }
+.tm-text-link { color: #333333; }
 
 .tm-likes-box,
 .tm-btn-download {
@@ -379,7 +379,9 @@ transform: scale(1.2);
 #tm-fixed-header-bg { height: 720px; }
 .tm-fixed-header-1 { background-image: url(../img/video-detail-1.jpg); }
 .tm-fixed-header-2 { background-image: url(../img/about-1.jpg); }
+.tm-fixed-header-5 { background-image: url(../img/coding.jpg); }
 .tm-fixed-header-3 { background-image: url(../img/contact-1.jpg); }
+.tm-fixed-header-4 { background-image: url(../img/intern-1.jpg); }
 
 video {
   width: 100%;

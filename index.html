@@ -11,6 +11,59 @@
         <!-- https://fonts.google.com/ -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+    
+            #tm-video-container {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+    
+            #tm-video-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    
+            .tm-fixed-header-5 {
+                background-image: url(../img/coding.jpg);
+            }
+
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            
+            .tm-fixed-header-5 {
+                width: 100%;
+                height: 100vh; /* Set the header height as per your requirement */
+                background-image: url(../img/coding.jpg);
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed; /* Keep the background fixed */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            #tm-video-container {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            
+            #tm-video-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
     <!--
 
 
@@ -42,8 +95,11 @@
                                         </button>
                                         <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                                             <ul class="navbar-nav text-uppercase">
+                                                <li class="nav-item">
+                                                    <a class="nav-link tm-nav-link" href="intern.html">Internship</a>
+                                                </li>
                                                 <li class="nav-item active">
-                                                    <a class="nav-link tm-nav-link" href="#">Courses <span class="sr-only">(current)</span></a>
+                                                    <a class="nav-link tm-nav-link" href="#">Certification <span class="sr-only">(current)</span></a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link tm-nav-link" href="about.html">About</a>
@@ -61,18 +117,17 @@
                 </div>
                 <div class="tm-welcome-container text-center text-white">
                     <div class="tm-welcome-container-inner">
-                        <p class="tm-welcome-text mb-1 text-white">Unleash your tech journey with<br> "Code Academy" - Igniting minds, fueling innovation.</p>
+                        <p class="tm-welcome-text mb-1 text-white"></p>
                         <a href="" class="">
                             <span></span>
                         </a>
                     </div>
                 </div>
 
-                <div id="tm-video-container">
-                    <video autoplay muted loop id="tm-video">
-                        <!-- <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> -->
-                            <source src="video/wheat-field.mp4" type="video/mp4">
-                    </video>    
+                <div class="tm-fixed-header-5">
+                    <div id="tm-video-container">
+                        <img src="img/coding.jpg" alt="Coding Image">
+                    </div>
                 </div>
                 
                 <i id="tm-video-control-button" class="fas fa-pause"></i>
@@ -85,7 +140,7 @@
                             <div class="col-12">
                                 <h2 class="tm-page-title mb-4">Course Catalog</h2>
                                 <div class="tm-categories-container mb-5">
-                                    <h3 class="tm-text-primary tm-categories-text">Courses:</h3>
+                                    <h3 class="tm-text-primary tm-categories-text">Certification:</h3>
                                     <ul class="nav tm-category-list">
                                         <li class="nav-item tm-category-item">
                                             <a href="index.html" class="nav-link tm-category-link active">Python For Data Science</a>
@@ -391,7 +446,7 @@
                         <div class="col-12">
                             <p class="text-right">Copyright May 2023
                                 
-                                - Designed by <a href="https://samirsengupta.github.io/SamirSengupta/" rel="nofollow" target="_parent">Samir Sengupta</a></p>
+                                - Designed by <a href="https://samirsengupta.github.io/SamirSengupta/" rel="nofollow" target="_parent">Code Academy</a></p>
                         </div>
                     </footer>
                 </div> <!-- tm-content-container -->
